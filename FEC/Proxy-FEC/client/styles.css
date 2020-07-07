@@ -1,0 +1,19 @@
+#proxy {
+  max-width: 1370px;
+  padding-top: 24px;
+  padding-left: 84px;
+  padding-right: 84px;
+  margin: auto;
+}
+
+#header-scrnshot {
+  width: 100%;
+}
+
+#info-scrnshot {
+  width: 60%;
+}
+
+#calendar {
+  padding-top: 48px;
+}
