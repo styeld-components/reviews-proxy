@@ -14,6 +14,6 @@ app.use(cors());
 app.use('/api/:roomId/photogallery', createProxyMiddleware({ target: 'http://54.153.62.136/', changeOrigin: true }));
 app.use('/api', createProxyMiddleware({ target: 'http://13.56.229.160/', changeOrigin: true }));
 app.use('/:roomId/reviews', createProxyMiddleware({ target: 'http://3.19.228.235/', changeOrigin: true }));
-// app.use('/carousel', createProxyMiddleware({ target: 'http://54.215.84.53/', changeOrigin: true }));
+app.use('/carousel', createProxyMiddleware({ target: 'http://3.129.64.149/', changeOrigin: true }));
 
 app.listen(port, () => console.log(`Listening at http://localhost:${port}/`));
